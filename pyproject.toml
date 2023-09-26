@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langchain chat with your data"
+version = "0.1.0"
+description = "DeepLearning.AI's course LangChain chat with your data"
+authors = ["Eduardo Melendez <edgame127@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+langchain = "^0.0.295"
+sentence-transformers = "^2.2.2"
+pypdf = "^3.16.1"
+transformers = "^4.33.2"
+chromadb = "^0.4.11"
+pysqlite3-binary = "^0.5.2"
+accelerate = "^0.23.0"
+bitsandbytes = "^0.41.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
